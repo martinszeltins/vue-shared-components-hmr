@@ -1,0 +1,1 @@
+`yarn && timeout 5s yarn dev && rm -rf /home/martins/Programming/test/shared-frontend/my-vue-app/node_modules/shared && ln -s /home/martins/Programming/test/shared-frontend/shared /home/martins/Programming/test/shared-frontend/my-vue-app/node_modules/shared && yarn dev`
