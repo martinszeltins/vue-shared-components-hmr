@@ -2,7 +2,10 @@
     <div class="m-4">
         <div>This component comes from a shared repo:</div>
 
-        <MySharedComponent msg="Message Prop!" />
+        <div class="space-x-4">
+            <MySharedComponent msg="Message Prop!" />
+            <MySharedComponent msg="Different prop :)" />
+        </div>
 
         <p class="font-semibold mt-4">Shared service:</p>
         <p>Mouse position is at: {{ x }}, {{ y }}</p>
