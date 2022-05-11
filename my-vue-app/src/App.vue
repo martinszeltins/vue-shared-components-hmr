@@ -16,9 +16,9 @@
 </template>
 
 <script setup>
-    import sharedImage from 'shared/src/assets/dolphin.png'
-    import { useMouse } from 'shared/src/services/useMouse.js'
-    import MySharedComponent from 'shared/src/components/MySharedComponent.vue'
+    import sharedImage from '@shared/src/assets/dolphin.png'
+    import { useMouse } from '@shared/src/services/useMouse.js'
+    import MySharedComponent from '@shared/src/components/MySharedComponent.vue'
 
     const { x, y } = useMouse()
 </script>
